@@ -1,3 +1,4 @@
+// 登录按钮
 export interface ILoginButtonProps {
   active: boolean,
   userName: string,

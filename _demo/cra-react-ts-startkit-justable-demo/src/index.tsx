@@ -5,8 +5,8 @@ import { createStore } from 'redux';
 import { Provider } from 'react-redux'
 import reducers from './reducers';
 import App from './App'
-import './animate.css';
-import './index.css';
+import './styles/animate.css';
+import './styles/index.css';
 import registerServiceWorker from './registerServiceWorker';
 
 const store = createStore(reducers);
