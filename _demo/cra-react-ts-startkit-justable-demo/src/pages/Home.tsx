@@ -13,6 +13,7 @@ const HomePage = () => (
     <Header />
     <div className="container">
       <Sidebar />
+
       <div className="content">
         <Route path="/home/shape/circular" component={CircularPage} />
         <Route path="/home/shape/square" component={SquarePage} />
