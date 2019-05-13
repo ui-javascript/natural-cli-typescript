@@ -4,6 +4,9 @@
   "private": true,
   "description": "An out-of-box UI solution for enterprise applications",
   "scripts": {
+    "install:yarn": "yarn install",
+    "install": "npm install",
+    "remove": "rimraf node_modules",
     "analyze": "cross-env ANALYZE=1 umi build",
     "build": "umi build",
     "docker-hub:build": "docker build  -f Dockerfile.hub -t  ant-design-pro ./",
@@ -25,6 +28,7 @@
     "prettier": "node ./scripts/prettier.js",
     "start": "cross-env APP_TYPE=site umi dev",
     "start:no-mock": "cross-env MOCK=none umi dev",
+    "dev": "npm run start:no-mock",
     "test": "umi test",
     "test:all": "node ./tests/run-tests.js",
     "test:component": "umi test ./src/components",
