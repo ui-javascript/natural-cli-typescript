@@ -8,3 +8,8 @@ x = ['hello', 10];
 // x = [10, 'hello']; 
 
 console.log(x)
+
+
+let t: [number, string?, boolean?];
+t = [42, null, true]
+console.log(t)

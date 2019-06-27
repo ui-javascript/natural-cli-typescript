@@ -1,4 +1,5 @@
 class Person {
+    // 受保护
     protected name: string;
     constructor(name: string) { this.name = name; }
 }
@@ -17,8 +18,9 @@ class Employee extends Person {
 }
 
 
-// protected成员在派生类中仍然可以访问
 let howard = new Employee("Howard", "Sales");
+
+// protected成员在派生类中仍然可以访问
 console.log(howard.getElevatorPitch());
 
 // 错误
