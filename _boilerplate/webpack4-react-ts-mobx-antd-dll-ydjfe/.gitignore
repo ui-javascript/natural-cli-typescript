@@ -5,3 +5,5 @@ npm-debug*
 /_cant-run-now/webpack4-react-ts-mobx-antd-dll-ydjfe-simple/.cache-loader
 /.awcache
 /deploy
+
+.cache-loader
