@@ -55,6 +55,7 @@
     "webpack-merge": "^4.2.1"
   },
   "scripts": {
+    "install:tyarn": "tyarn install",
     "start": "webpack-dashboard webpack-dev-server --config webpack.dev.config.js --progress --open",
     "build": "webpack --config webpack.prod.config.js --progress"
   },
