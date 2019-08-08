@@ -4,8 +4,9 @@
   "description": "A simple template for creating react app using TypeScript with hot reload.",
   "main": "index.js",
   "scripts": {
-    "install:cnpm": "cnpm install",
     "install:yarn": "yarn install",
+    "install:cnpm": "cnpm install",
+    "remove": "rimraf node_modules",
     "lint": "tslint -c tslint.json 'src/**/*.{ts,tsx}' --exclude 'src/tests/*.{ts,tsx}'",
     "start": "webpack-dev-server",
     "test": "jest",
