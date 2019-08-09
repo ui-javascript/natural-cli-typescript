@@ -8,7 +8,7 @@ class App extends Component<{}, {}> {
     return (
       <Router>
         <Home path="/" />
-        <Dash path="dash" />
+        <Dash path="/dash" />
       </Router>
     );
   }
